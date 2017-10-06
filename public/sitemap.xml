@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<search>
+    
+     <entry>
+        <title>Hi</title>
+        <url>http://blog.aifast.net/post/hi/</url>
+        <categories>
+          <category>技术</category><category>感想</category>
+        </categories>
+        <tags>
+          <tag>test</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>Posts</title>
+        <url>http://blog.aifast.net/post/</url>
+        <categories>
+          
+        </categories>
+        <tags>
+          
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+</search>
