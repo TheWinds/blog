@@ -2,6 +2,19 @@
 <search>
     
      <entry>
+        <title>博客搭建记录</title>
+        <url>http://blog.aifast.net/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</url>
+        <categories>
+          <category>技术</category>
+        </categories>
+        <tags>
+          <tag>博客</tag><tag>git</tag><tag>hugo</tag><tag>caddy</tag>
+        </tags>
+        <content type="html">  终于没问题了心好累&amp;hellip;.
+ </content>
+    </entry>
+    
+     <entry>
         <title>Shadowshocks爬梯指南</title>
         <url>http://blog.aifast.net/post/shadowshocks%E7%88%AC%E6%A2%AF%E6%8C%87%E5%8D%97/</url>
         <categories>

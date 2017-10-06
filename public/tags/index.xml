@@ -6,9 +6,46 @@
     <description>Recent content in Tags on TheWinds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Oct 2017 02:36:23 +0800</lastBuildDate>
     
 	<atom:link href="http://blog.aifast.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Caddy</title>
+      <link>http://blog.aifast.net/tags/caddy/</link>
+      <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
+      
+      <guid>http://blog.aifast.net/tags/caddy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://blog.aifast.net/tags/git/</link>
+      <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
+      
+      <guid>http://blog.aifast.net/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://blog.aifast.net/tags/hugo/</link>
+      <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
+      
+      <guid>http://blog.aifast.net/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>博客</title>
+      <link>http://blog.aifast.net/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
+      
+      <guid>http://blog.aifast.net/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>科学上网</title>
