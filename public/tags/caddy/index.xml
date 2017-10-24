@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Caddy on TheWinds</title>
-    <link>https://blog.aifast.net/tags/caddy/</link>
+    <link>https://thewinds.cn/tags/caddy/</link>
     <description>Recent content in Caddy on TheWinds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 07 Oct 2017 02:36:23 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.aifast.net/tags/caddy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thewinds.cn/tags/caddy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>博客搭建记录</title>
-      <link>https://blog.aifast.net/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <link>https://thewinds.cn/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
-      <guid>https://blog.aifast.net/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://thewinds.cn/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
       <description>终于没问题了心好累&amp;hellip;. 无语??????</description>
     </item>
     
