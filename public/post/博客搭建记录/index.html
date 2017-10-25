@@ -154,15 +154,91 @@
     <i class="fa fa-eye"></i>
 </span>
 <span class="post-meta-item-text">阅读：</span>
-<span class="leancloud-visitors-count">26 字 ~1分钟</span>
+<span class="leancloud-visitors-count">1342 字 ~3分钟</span>
 </span>
       </div>
     </header>
     <div class="post-body" itemprop="articleBody">
-    <blockquote>
-<p>终于没问题了心好累&hellip;.
-无语??????</p>
+    
+
+<blockquote>
+<p>一直以来都想搭建一个自己的博客,记录一些问题或者心得.
+利用十一假期的时间部署了一个博客</p>
 </blockquote>
+
+<h1 id="0x00-写之前">0x00 写之前</h1>
+
+<p>本来想着自己写一个博客,能够支持配置主题样式,自动抓取git上托管的文章&hellip;,后来发现别人已经做得很好了（自己太懒）比如 hexo,hugo 所以决定选择一个静态博客生成器然后修改一下主题来满足一下自己的需求.</p>
+
+<h1 id="0x01-搜刮一波">0x01 搜刮一波</h1>
+
+<p>于是就去github上搜了一下静态博客生成器,比较好的有两个:<a href="https://github.com/hexojs/hexo">Hexo</a> 和 <a href="https://github.com/gohugoio/hugo">Hugo</a> Hugo是用golang写的,身为一个golang粉当然果断选择了他 哈哈哈。OK生成器选好了之后下一步就是取选一个合适的主题了。</p>
+
+<h1 id="0x02-纠结">0x02 纠结.</h1>
+
+<p>去官网看了一下,主题是不少但是感觉好看的确实不多。搜索半天找不到一个合适的足以让你产生算了还是自己搞一个吧这种冲动。= =|
+最后发现了一个叫<a href="https://github.com/xtfly/hugo-theme-next">Next</a>的主题，clone到theme目录感觉还不错,然后就开始各种配置。</p>
+
+<p>首先创建博客站点:</p>
+
+<pre><code>mkdir blog
+hugo new site . 
+hugo new post/hello.md
+</code></pre>
+
+<p>然后 <code>cd themes</code> 进入到主题目录
+<code>git clone path/to/theme/repo</code>
+然后把主题中的<code>config.toml</code> 复制到博客 <code>根目录</code> 
+配置一下域名网站介绍个人信息&hellip;.</p>
+
+<h1 id="0x03-使用theme遇到的坑">0x03 使用theme遇到的坑</h1>
+
+<p>配置好主题后,运行 <code>hugo</code> 进行编译,发现报错,看了下错误信息大概是遇到了<code>len typed nil error</code>,也就是对一个nil 的 数组取长度,经过排查发现是因为没设置分类或者标签导致<code>.Site.Taxonomies.categories == nil</code>, hugo主题使用的模板引擎是go自带的模板引擎所以直接在模板里判断一下数组是否为nil,果然成功。问题解决 fork一份原主题改好之后给作者发个PR做个贡献~
+修改过的 <a href="https://github.com/TheWinds/hugo-theme-next">hugo-theme-next</a></p>
+
+<h1 id="0x04-编译运行">0x04 编译运行.</h1>
+
+<p>在博客根目录运行 <code>hugo</code> 命令后会自动扫描博文目录和主题中的模板和样式,然后把所有的文章和页面生成静态网页输出到 <code>public</code> 文件夹,我们只需把 <code>public</code> 文件夹中的内容放到服务器上即可。当然如果想在本地编辑文章后及时预览,只需要使用<code>hugo server</code> 就可以自动监控 <code>data,content,layouts,static</code> 目录的改动自动进行编译，打开 <code>http://localhost:1313/</code> 即可看到生成的博客。</p>
+
+<h1 id="0x05-部署到服务器上">0x05 部署到服务器上</h1>
+
+<p>对于博客最初的设想就是能够在编辑过文章之后一个命令推送到服务器上。最简单的做法就是用一个Github Page。但是又想把网站放在自己服务器上,于是就把Github作为一个中转的地方。
+这样的话有两种方式来实现一种是 使用 <code>Github WebHook</code> PC 上 commit 到Github之后，Github通知服务器进行拉取。另外一种就是服务器定期(比如一分钟)从Github pull 一次。
+本着节省资源的想法,就入了使用WebHook的坑,服务器使用的是<code>Caddy</code>,加入git插件和hugo插件之后实现了自动拉取然后编译,但是效果并不是很好,容易出问题(具体细节就不说了..)。于是决定用第二种方式,每分钟拉取一次,简单粗暴 :) 。Caddy 配置如下:</p>
+
+<pre><code>blog.thewinds.cn:443
+{
+        gzip #开启gzip压缩
+        log /var/log/caddy/blog_thewinds_cn.log #保存日志
+        root /var/www/blog.thewinds.cn/public   #网站根目录
+        tls wind_ns@163.com                     #自动申请tls
+        git github.com/thewinds/blog {          #git 远程仓库地址
+                path /var/www/blog.thewinds.cn  #同步到本地路径的地址
+                interval 60                     #同步周期
+        }
+}
+</code></pre>
+
+<p>再次感受到了Caddy的清爽配置,特别是一个 tls+邮箱就开启了https 爽~</p>
+
+<h1 id="0x06-还是有点懒">0x06 还是有点懒</h1>
+
+<p>现在博客基本搭建完成了,以后发布文章的主要流程就是:</p>
+
+<pre><code>修改新增/博文 -&gt; hugo 重新生成静态页面
+-&gt; git add -&gt; git commit -&gt; git push
+</code></pre>
+
+<p>然后服务器就会自动pull下来,新的内容就出现了。
+说好的一个命令,所以还是写个shell吧。。</p>
+
+<pre><code>echo &quot;更新说明:$1&quot;
+hugo &amp;&amp; git add . &amp;&amp; git commit -m &quot;$1&quot; &amp;&amp; git push
+</code></pre>
+
+<p>保存为 <code>push_plog.sh</code></p>
+
+<p>Ok 以后写好文章直接 执行 <code>./push_plog.sh</code>  更新说明就好了。</p>
 
     </div>
     <footer class="post-footer">
