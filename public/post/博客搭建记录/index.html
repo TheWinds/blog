@@ -311,7 +311,16 @@ hugo &amp;&amp; git add . &amp;&amp; git commit -m &quot;$1&quot; &amp;&amp; git
 <aside id="sidebar" class="sidebar">
   <div class="sidebar-inner">
 
-    <section class="site-overview sidebar-panel  sidebar-panel-active ">
+  <ul class="sidebar-nav motion-element">
+    <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+      文章目录
+    </li>
+    <li class="sidebar-nav-overview" data-target="site-overview">
+      站点概览
+    </li>
+  </ul>
+
+    <section class="site-overview sidebar-panel ">
       <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image"
         src="https://blog.thewinds.cn/img/avatar.jpg"
@@ -371,6 +380,22 @@ hugo &amp;&amp; git add . &amp;&amp; git commit -m &quot;$1&quot; &amp;&amp; git
 
     </section>
     
+<section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+    <div class="post-toc">
+        <div class="post-toc-content"><nav id="TableOfContents">
+<ul>
+<li><a href="#0x00-写之前">0x00 写之前</a></li>
+<li><a href="#0x01-搜刮一波">0x01 搜刮一波</a></li>
+<li><a href="#0x02-纠结">0x02 纠结.</a></li>
+<li><a href="#0x03-使用theme遇到的坑">0x03 使用theme遇到的坑</a></li>
+<li><a href="#0x04-编译运行">0x04 编译运行.</a></li>
+<li><a href="#0x05-部署到服务器上">0x05 部署到服务器上</a></li>
+<li><a href="#0x06-还是有点懒">0x06 还是有点懒</a></li>
+</ul>
+</nav></div>
+    </div>
+</section>
+
   </div>
 </aside>
 
