@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on TheWinds</title>
-    <link>https://thewinds.cn/tags/</link>
+    <link>https://blog.thewinds.cn/tags/</link>
     <description>Recent content in Tags on TheWinds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 07 Oct 2017 02:36:23 +0800</lastBuildDate>
     
-	<atom:link href="https://thewinds.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.thewinds.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Caddy</title>
-      <link>https://thewinds.cn/tags/caddy/</link>
+      <link>https://blog.thewinds.cn/tags/caddy/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
-      <guid>https://thewinds.cn/tags/caddy/</guid>
+      <guid>https://blog.thewinds.cn/tags/caddy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://thewinds.cn/tags/git/</link>
+      <link>https://blog.thewinds.cn/tags/git/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
-      <guid>https://thewinds.cn/tags/git/</guid>
+      <guid>https://blog.thewinds.cn/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://thewinds.cn/tags/hugo/</link>
+      <link>https://blog.thewinds.cn/tags/hugo/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
-      <guid>https://thewinds.cn/tags/hugo/</guid>
+      <guid>https://blog.thewinds.cn/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>博客</title>
-      <link>https://thewinds.cn/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://blog.thewinds.cn/tags/%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
-      <guid>https://thewinds.cn/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://blog.thewinds.cn/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>科学上网</title>
-      <link>https://thewinds.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
+      <link>https://blog.thewinds.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
       <pubDate>Sat, 07 Oct 2017 01:39:32 +0800</pubDate>
       
-      <guid>https://thewinds.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
+      <guid>https://blog.thewinds.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
       <description></description>
     </item>
     

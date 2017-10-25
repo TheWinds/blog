@@ -1,7 +1,7 @@
 Title =  "TheWinds"
 LanguageCode = "zh-CN"
 # BaseUrl = "https://blog.aifast.net/"
-BaseUrl = "https://thewinds.cn/"
+BaseUrl = "https://blog.thewinds.cn/"
 Theme =  "next"
 MetaDataFormat =  "yaml"
 CanonifyUrls =  true

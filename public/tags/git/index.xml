@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on TheWinds</title>
-    <link>https://thewinds.cn/tags/git/</link>
+    <link>https://blog.thewinds.cn/tags/git/</link>
     <description>Recent content in Git on TheWinds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 07 Oct 2017 02:36:23 +0800</lastBuildDate>
     
-	<atom:link href="https://thewinds.cn/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.thewinds.cn/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>博客搭建记录</title>
-      <link>https://thewinds.cn/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <link>https://blog.thewinds.cn/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
-      <guid>https://thewinds.cn/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://blog.thewinds.cn/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
       <description>终于没问题了心好累&amp;hellip;. 无语??????</description>
     </item>
     
