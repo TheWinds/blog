@@ -19,6 +19,7 @@
     <link href="https://blog.thewinds.cn/js/vendor/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
     <link href="https://blog.thewinds.cn/js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
     <link href="https://blog.thewinds.cn/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://blog.thewinds.cn/css/prism.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
@@ -218,7 +219,7 @@
 
 <p>安装<code>prioxy</code></p>
 
-<pre><code>sudo apt-get install privoxy
+<pre><code class="language-bash">sudo apt-get install privoxy
 </code></pre>
 
 <p>修改prioxy的配置文件</p>
@@ -236,12 +237,12 @@ listen-address 127.0.0.1:8118
 
 <p>然后重启</p>
 
-<pre><code>sudo service privoxy restart
+<pre><code class="language-bash">sudo service privoxy restart
 </code></pre>
 
 <p>最后 在终端中使用代理</p>
 
-<pre><code>export http_proxy=&quot;127.0.0.1:8118&quot;
+<pre><code class="language-bash">export http_proxy=&quot;127.0.0.1:8118&quot;
 export https_proxy=&quot;127.0.0.1:8118&quot;
 </code></pre>
 
@@ -456,6 +457,8 @@ export https_proxy=&quot;127.0.0.1:8118&quot;
 <script type="text/javascript" src="https://blog.thewinds.cn/js/scrollspy.js"></script>
 <script type="text/javascript" src="https://blog.thewinds.cn/js/post-details.js"></script>
 <script type="text/javascript" src="https://blog.thewinds.cn/js/toc.js"></script>
+<script type="text/javascript" src="https://blog.thewinds.cn/js/pre-prism.js"></script>
+<script type="text/javascript" src="https://blog.thewinds.cn/js/prism.js"></script>
 
 <script type="text/javascript" src="https://blog.thewinds.cn/js/bootstrap.js"></script>
 

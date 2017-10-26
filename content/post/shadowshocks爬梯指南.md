@@ -58,7 +58,7 @@ brew install ss-qt5
 ## 3.在终端里使用代理[可选]
 安装`prioxy`
 
-````
+````bash
 sudo apt-get install privoxy
 ````
 
@@ -80,14 +80,14 @@ listen-address 127.0.0.1:8118
 
 然后重启
 
-```
+```bash
 sudo service privoxy restart
 ```
 
 
 
 最后 在终端中使用代理
-```
+```bash
 export http_proxy="127.0.0.1:8118"
 export https_proxy="127.0.0.1:8118"
 ```

@@ -19,6 +19,7 @@
     <link href="https://blog.thewinds.cn/js/vendor/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
     <link href="https://blog.thewinds.cn/js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
     <link href="https://blog.thewinds.cn/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://blog.thewinds.cn/css/prism.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
@@ -181,7 +182,7 @@
 
 <p>首先创建博客站点:</p>
 
-<pre><code>mkdir blog
+<pre><code class="language-bash">mkdir blog
 hugo new site . 
 hugo new post/hello.md
 </code></pre>
@@ -232,7 +233,7 @@ hugo new post/hello.md
 <p>然后服务器就会自动pull下来,新的内容就出现了。
 说好的一个命令,所以还是写个shell吧。。</p>
 
-<pre><code>echo &quot;更新说明:$1&quot;
+<pre><code class="language-bash">echo &quot;更新说明:$1&quot;
 hugo &amp;&amp; git add . &amp;&amp; git commit -m &quot;$1&quot; &amp;&amp; git push
 </code></pre>
 
@@ -451,6 +452,8 @@ hugo &amp;&amp; git add . &amp;&amp; git commit -m &quot;$1&quot; &amp;&amp; git
 <script type="text/javascript" src="https://blog.thewinds.cn/js/scrollspy.js"></script>
 <script type="text/javascript" src="https://blog.thewinds.cn/js/post-details.js"></script>
 <script type="text/javascript" src="https://blog.thewinds.cn/js/toc.js"></script>
+<script type="text/javascript" src="https://blog.thewinds.cn/js/pre-prism.js"></script>
+<script type="text/javascript" src="https://blog.thewinds.cn/js/prism.js"></script>
 
 <script type="text/javascript" src="https://blog.thewinds.cn/js/bootstrap.js"></script>
 
