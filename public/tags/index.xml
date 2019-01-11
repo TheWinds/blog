@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Docker</title>
+      <link>https://blog.thewinds.cn/tags/docker/</link>
+      <pubDate>Fri, 11 Jan 2019 18:02:42 +0800</pubDate>
+      
+      <guid>https://blog.thewinds.cn/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>https://blog.thewinds.cn/tags/git/</link>
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
@@ -35,6 +44,15 @@
       <pubDate>Sat, 07 Oct 2017 02:36:23 +0800</pubDate>
       
       <guid>https://blog.thewinds.cn/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macos</title>
+      <link>https://blog.thewinds.cn/tags/macos/</link>
+      <pubDate>Fri, 11 Jan 2019 18:02:42 +0800</pubDate>
+      
+      <guid>https://blog.thewinds.cn/tags/macos/</guid>
       <description></description>
     </item>
     

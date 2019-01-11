@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macos on TheWinds</title>
+    <link>https://blog.thewinds.cn/tags/macos/</link>
+    <description>Recent content in Macos on TheWinds</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 11 Jan 2019 18:02:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.thewinds.cn/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MacOS系统Docker默认存储路径迁移方法</title>
+      <link>https://blog.thewinds.cn/post/macos%E7%B3%BB%E7%BB%9Fdocker%E9%BB%98%E8%AE%A4%E5%AD%98%E5%82%A8%E8%B7%AF%E5%BE%84%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 11 Jan 2019 18:02:42 +0800</pubDate>
+      
+      <guid>https://blog.thewinds.cn/post/macos%E7%B3%BB%E7%BB%9Fdocker%E9%BB%98%E8%AE%A4%E5%AD%98%E5%82%A8%E8%B7%AF%E5%BE%84%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95/</guid>
+      <description>MacOS系统Docker默认存储路径迁移方法 对于仅有120G的固态硬盘来说，Docker占用的存储空间感到压力山大。搜了一圈才找到迁移</description>
+    </item>
+    
+  </channel>
+</rss>

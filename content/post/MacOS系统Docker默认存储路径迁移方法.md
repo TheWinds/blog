@@ -1,7 +1,7 @@
 ---
 title: "MacOS系统Docker默认存储路径迁移方法"
 date: 2019-01-11T18:02:42+08:00
-draft: true
+draft: false
 tags : ["docker","macos"]
 categories : ["技术"]
 toc : true
