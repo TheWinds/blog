@@ -41,4 +41,6 @@ rm com.docker.docker.old
 ```
 
 顺便吐槽下，两年前买的¥379 买的120G SSD，现在可以买480G了 🙂
+## 参考
+[1] [Change Docker Image Directory for Mac?](https://webcache.googleusercontent.com/search?q=cache:VCB573YpGPsJ:https://forums.docker.com/t/change-docker-image-directory-for-mac/18891+&cd=1&hl=zh-CN&ct=clnk&gl=us)
 ## EOF

@@ -18,6 +18,7 @@ rsync -a ~/Library/Containers/com.docker.docker/ /Volumes/xxxx  第二步将原�
 mv com.docker.docker com.docker.docker.old  第三步将新路径软链接过来
 # cd ~/Library/Containers ln -s /Volumes/xxxx com.docker.docker  第四部启动docker，如果正常启动删除掉原来的docker文件夹即可
 rm com.docker.docker.old  顺便吐槽下，两年前买的¥379 买的120G SSD，现在可以买480G了 🙂
+参考 [1] Change Docker Image Directory for Mac?
 EOF </content>
     </entry>
     
