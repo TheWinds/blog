@@ -263,12 +263,33 @@
     <section class="experience">
       <h2>实习经历</h2>
       <ul>
+          <li>
+              <h3>杭州靓音科技有限公司 / Go后端工程师
+                <span class="lighter">2019.3 - 至今</span>
+              </h3>
+              <p class="detail">
+                <strong>主要负责</strong> 「芝课」和「习音堂」 后端的开发和维护
+                <br> 1.负责将「习音堂」原有后端拆分迁移到RPC服务集群上,为了降低迁移过程中的错误率和减少机械重复的接口定义工作,我开发了一个用于API迁移的辅助工具,根据原有的API生成相应的 protobuf 文件,可以满足80％的迁移需求，有效提高了团队成员的迁移效率。
+                <br> 2.负责「芝课」作业点评模块以及相关运营模块的开发，以及GRPC的一些封装工作。
+              </p>
+              <p class="detail-extra">
+                <strong>项目总结</strong>
+                <br> 「1」APP架构方式:使用的是MVP模式，不同功能以组件模块化开发。网络层:Retrofit,要对后台接口的数据传来的进行处理。
+                <br> 「2」数据库:Android->sqlite(1张表)，后端:Oracle(14张表)。
+                <br> 「3*」动态表单控件,因为系统中有各种不同的报表,所以他们可以进行搜索的条件是不同的,
+                比如有的要根据区、市、县，有的要根据时间，组织这些信息进行查询。并且有的控件是业务相关的,
+                所以需要在数据库中动态设置表单搜索时要显示的控件。后端数据库这边有控件的定义表，(业务)控件属性定义表，控件赋值的表..
+                安卓这边主要是对传过来的数据解析，动态生产表单然后产生query参数进行查询，其中还有一个Context问题。
+                <br> 「4*」配置式接入第三方系统H5页面，对第三方页面在APP中的混合显示（入口地址，显示位置之类的）进行配置。向第三方系统提供一个认证包，使其能对本系统的token进行解析，
+                并读取权限控制内允许的信息。最后第三方系统返回token或者cookie，完成登录过程。
+              </p>
+            </li>
         <li>
-          <h3>浙江网盛数新软件股份有限公司 /
+          <h3>浙江网盛数新软件股份有限公司 / 全栈
             <span class="lighter">2017-2018</span>
           </h3>
           <p class="detail">
-            <strong>主要负责</strong> 「绍兴市财税局移动办公平台」Android客户端以及后端的设计开发和部分团队管理工作
+            <strong>主要负责</strong> 「绍兴市财税局移动办公平台」Android客户端以及后端的设计开发
             <br> 负责 APP 的整体设计，以及进行网络层和业务逻辑层的开发，后端方面参与数据库的设计来实现动态表单控件生成与复用、配置式接入第三方系统H5页面、以及权限限制。
             支持接入第三方系统后，实现了一个Pad+App就能办公的效果，极大的提高了办公效率。
           </p>
@@ -289,6 +310,16 @@
     <section class="experience">
       <h2>项目经历</h2>
       <ul>
+          <li>
+              <h3>Xun /
+                <span class="lighter-sm">/开源项目/</span>
+                <span class="lighter">2019</span>
+              </h3>
+              <p class="project-address"> > https://github.com/thewinds/Xun</p>
+              <p class="detail">
+                <strong>项目介绍</strong> 「 Xun 」是一款用Golang实现的全文搜索引擎,主要是对搜索引擎相关知识的实践尝试。它支持实时增量索引和索引持久化,实现了分片搜索有利于水平扩展，支持对非文本类型字段的过滤查询以及词距相关度排序。支持实时增量索引，和索引持久化,实现了分片搜索有利于水平扩展，支持对非文本类型字段的过滤查询以及词距相关度排序，对100W条微博数据的常规搜索时间能控制在毫秒级别。
+              </p>
+        </li>
         <li>
           <h3>Biu /
             <span class="lighter-sm">/开源项目/</span>
@@ -317,7 +348,7 @@
             <strong>项目介绍</strong> 「 QAQ 」是一款在线考试系统，主要包含出题，组卷，在线测评，成绩统计等功能，使用docker自动化部署自建git服务器上的release版本。技术栈为 Go、Mysql、GraphQL、Vue。
           </p>
         </li>
-        <li>
+        <!-- <li>
           <h3>你画我猜 /
             <span class="lighter">2016-2018</span>
           </h3>
@@ -325,9 +356,9 @@
           <p class="detail">
             <strong>项目介绍</strong> 「 你画我猜 」是一款在线涂鸦游戏，玩法是由一个玩家画画其他玩家猜测答案。实现了基本的游戏功能以及掉线恢复、水平拓展等机制，游戏开发中使用了帧同步的模式进行数据同步，采用websocket协议，后期加入了支持部服务端到多个服务器节点，解决了大量用户在线的卡顿问题。技术栈为 Vue、Canvas、Golang、MySQL。
           </p>
-        </li>
+        </li> -->
         <li>
-          <h3>求职推荐网站 (负责后端) /
+          <h3>求职推荐网站 /
             <span class="lighter">2017-2018</span>
           </h3>
           <p class="project-address"></p>
@@ -368,7 +399,7 @@
     <section class="experience">
       <h2>技能介绍</h2>
       <div>
-        熟悉Web开发，熟练使用Golang、JavaScript、CSharp进行开发，除了后端开发外对前端开发和Android开发也有一定掌握。<br>
+        熟悉Web开发，熟练使用Golang、JavaScript、CSharp进行开发。<br>
         熟悉HTTP/TCP/IP等常用协议，熟悉Linux的基本操作、Git和常用数据库、了解docker的基本使用。
       </div>
     </section>
