@@ -1,7 +1,7 @@
 ---
 title: "DroneCI+Github入坑指北"
 date: 2019-10-04T17:36:51+08:00
-draft: true
+draft: false
 tags : ["技术","Drone","CI","docker"]
 categories : ["技术"]
 toc : true
